@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="Ieaun Roberts">
-        <link rel="icon" href="../../../../favicon.ico">
+        <link rel="icon" href="#">
         <title>Ieaun Roberts · Portfolio</title>
 
         <!--Template based on URL below-->
@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="Resources/Css/MyStyles.css">
     </head>
 
-    <body>
+    <body style="background-color: whitesmoke;">
 
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="#">Ieaun Roberts</a>
@@ -53,26 +53,56 @@
 
 
 
+        <main role="main" class="container text-left" >
+            
 
-
-        <main role="main" class="container text-center">
-
-            <div class="mt-5 pt-5">
+            <div class="mt-5 pt-5 text-center">
                 <p class="lead">It seems you've managed to find your way onto my webpage.</p> 
 
-                <img class="profile" src="Resources/Images/Ieaun/traditional.JPG" alt="Avatar" >
+                <img class="profile " src="Resources/Images/Ieaun/traditional.JPG" alt="Avatar" >
 
 
             </div>
-            <hr class="Thick_Border" >
+
             <div class="row">
-                <div class="col"><h2>At a glance</h2>
+
+                <div class="col">                  
+                    <h2>At a glance</h2>
                     <p>
-                        I am a top achieving Msc student with a strong interest in software development, specialised in embedded systems, networking, desktop software development and most recently web development. 
+                        I am a top achieving Msc student with a strong interest in software development, specialized in embedded systems, networking and software development for desktop and web applications. 
                         I would consider my strongest attribute to be my work ethic and commitment to constantly trying to improve my own abilities.
-                    </p>
+                    </p>                  
+                </div>              
+            </div>
+            <hr>
+            <h3>My Skills:</h3>
+            <div class="row">
+                <div class="col">                
+                    <ul>
+                        <li> <h5>Communication</h5></li>
+                        Through experiences in teaching, demonstrating, being a student ambassador, 16 years of rugby and 4 years of group projects while at university, ive been able to develop my communication skills and learn how to get my point across and explain things i'm familiar with in a manner that both technical and non-technical audiences can understand.
+                    </ul>
+                    <a href="https://github.com/Ieaun"><img  src="Resources/Images/GitHub-Mark.png" style="max-width: 50px"></a>
+
+                    <a href="www.linkedin.com/in/ieaun-roberts"><img src="Resources/Images/link.png" style="max-width: 40px"></a>
+
+                    <img onclick="myCopy()" id="Email_icon" src="Resources/Images/email.png" style="max-width: 40px; cursor: pointer;" >
+
+                </div>
+                <div class="col">
+                    <ul>
+                        <li><h5>Ability to learn</h5></li>
+                        Over the last 4 years i've had the benefit of being exposed to various different languages and methodologies in numerous domains. 
+                    </ul>
+
+                    <ul>
+                        <li><h5>Strong academic background</h5></li>
+                        Top of my year for my BSc degree, employed by university to complete a research internship over summer, highest grades in all module in trimester 1 for my MSc degree.
+                    </ul>
                 </div>
             </div>
+
+
             <div id="Edu_DIV">
                 <hr class="Thick_Border" >
                 <div class="row">
@@ -92,7 +122,10 @@
                     <b>Description:</b><br>
                     My MSc degree so far for trimester 1 has seen me progress my abilities with C# to the point where i am comfortable saying i have strong C# coding skills for a programmer at my stage in their development. <br>
 
-                    Ive been able to cover the basics again and build a strong foundation to enhance my knowledge of principals in OO design and development and ensuring my system design skills adhere to outlined design patterns and practices. Ive gained further experience with client - server networking and many interesting concepts focusing on networking, network attacks and protocols (packet structures and flaws) in network security. Finally in my favorite module Component based architecture, i was able to make use of all my abilities with C# (Interfaces, inheritances, threading, app domains) and further them greatly by adding dynamic invocation methodologies using reflection as well as additional experience with unit testing and using fake objects to my tool belt.   
+                    Ive been able to cover the basics again and build a strong foundation to enhance my knowledge of principals in OO design and development and ensuring my system design skills adhere to outlined design patterns and practices. Ive gained further experience with client - server networking and many interesting concepts focusing on networking, network attacks and protocols (packet structures, flaws) in network security. Finally in my favorite module Component based architecture, i was able to make use of all my abilities with C# (interfaces, inheritances, threading, app domains) and further them greatly by adding dynamic invocation methodologies using reflection as well as additional experience with unit testing and using fake objects to my tool belt.
+                    <br><br>
+
+                    In trimester 2, i am currently learning about web development across the stack, from Asp.net and Entity framework to Javascript and Html. I am also learning about many security concepts related to access policies, identifying possible security flaws in code and cryptography.
 
                     <div>
                         <br>
@@ -118,12 +151,12 @@
                             </div>
                             <div class="col">
                                 <p>
-                                    <b>Languages:</b><br>C#, Asp.net(Html, Css, Javascript)
-                                    <br>-Strong experience in C#
+                                    <b>Languages:</b><br>C# for windows applications, C# with Asp.net(Html, Css, Javascript) for web applications
+                                    <br>-Strong experience with C#
                                 </p>
 
                                 <p>
-                                    <b>Topics:</b><br> Visual studio, Brackets, Entity framework code first, Design patterns (Domain logic, data access), packet decoding (IP, UDP, TCP, ICMP, SNMP), Object oriented principals, reflection, Multi-threading, Strong naming, unit testing, Moq, dependency injection, Sql (Access, Sql server), Win forms, bootstrap, Git
+                                    <b>Topics:</b><br> Visual studio, Brackets, Entity framework code first, MVC, SQLServer, Agile methodologies, Access policies, Design patterns (Domain logic, data access), Packet decoding (IP, UDP, TCP, ICMP, SNMP), Object oriented principals, Reflection, Multi-threading, Strong naming, unit testing, Moq, dependency injection, Sql (Access, Sql server), Win forms, Bootstrap, Git, Trello, GitHub pages
                             </div>
 
                         </div>
@@ -140,11 +173,11 @@
 
                         <div id="Postgraduate_div" class="collapse">
                             <hr>
-                            <br>
+
                             <div>
                                 <h3 id="Network_Security"><b>Network security</b></h3>
                                 <h5>Grade: 79%</h5>
-                                <h6>Topics / Tech stack: </h6>
+                                <b>Topics / Tech stack: </b>
                                 <p>
                                     Honeypots, CIA triad, OSI model, network management protocols, Packet structure, IP, TCP, UDP, SNMP, Client-server networking, network architecture, Types of attacks, Protocol flaws, C#, Wireshark, visual studio
                                 </p>
@@ -160,7 +193,7 @@
                                     <li>Network management protocols.</li>
                                     <li>Further networking concepts (packet decoding, protocol flaws).</li>
                                     <li>How to conduct research to identify vulnerabilities and flaws in systems.</li>
-                                    <li>Types of network attacks and initial mitigations</li>
+                                    <li>Types of network attacks and initial mitigations.</li>
                                 </ul>
                                 <div class="row" style="border-style: solid;">
                                     <div class="col"> 
@@ -196,7 +229,7 @@
                             <div>                
                                 <h3 id="Object_Oriented_Design"><b>Object oriented design and development</b></h3>
                                 <h5>Grade: 81%</h5>
-                                <h6>Topics / Tech stack: </h6>
+                                <b>Topics / Tech stack: </b>
                                 <p>
                                     C#, Visual studio, garbage collection, enumerated types, interfaces, inheritance, constructors, abstract methods, polymorphism, Dictionaries, XML, SQL (Access), layered architecture, Lambda expressions, LINQ 
                                 </p>
@@ -210,9 +243,9 @@
                                 </p>    
                                 <b>What i learnt:</b>
                                 <ul>
-                                    <li>I furthered my knowledge of SQL and database systems</li>
-                                    <li>How to use inheritance and interfaces appropriately </li>
-                                    <li>Strengthened my knowledge of the C# language </li>
+                                    <li>I furthered my knowledge of SQL and database systems.</li>
+                                    <li>How to use inheritance and interfaces appropriately. </li>
+                                    <li>Strengthened my knowledge of the C# language.</li>
                                 </ul>
 
                                 <div class="row" style="border-style: solid;">
@@ -250,7 +283,7 @@
                             <div>
                                 <h3 id="Component_Based_Architecture"><b>Component based architecture</b></h3>
                                 <h5>Grade: 84%</h5>
-                                <h6>Topics / Tech stack: </h6>
+                                <b>Topics / Tech stack: </b>
                                 <p>
                                     C#, Visual studio, .Net framework, managed execution environments, garbage collection, CLI, CLR, type handling / type system, Language interoperability, versioning, Signing, Strong naming, Boxing, Delegates, Reflection, Metadata , Unit testing, Dependency injection, Moq, Virtual machines, stacks, app domains, sandboxing
                                 </p>
@@ -356,7 +389,7 @@
                             <p>
                                 <b>Languages:</b><br>
                                 C, C++, Python, C#, Java, Matlab
-                                <br>Strong experience in C and Python
+                                <br>Strong experience with C and Python
                             </p>
 
 
@@ -370,11 +403,11 @@
                     <p>
                         <b>Awards:</b>
                     <ul>
-                        <li>  Best departmental academic performance 2018/19 Computer Science</li>
-                        <li>Highest subject achivement x3 (Agile software development, Embedded systems developemnt, Mobile devices and applications) </li>
-                        <li>1st class with hons BSc Computer Science (Embedded Systems) </li>
+                        <li> Best departmental academic performance 2018/19 Computer Science.</li>
+                        <li>Highest subject achievement x3 (Agile software development, Embedded systems development, Mobile devices and applications).</li>
+                        <li>1st class with hons BSc Computer Science (Embedded Systems). </li>
                     </ul>
-                    <br>
+
 
 
                     <div id="Undergraduate_div"  class="collapse">  
@@ -397,10 +430,10 @@
 
                             <b>What i learnt:</b>
                             <ul>
-                                <li>How to read manufacturer data sheets</li>
-                                <li>Debugging and testing techniques (Traceability matrix)</li>
-                                <li>Efficient low level coding techniques using C</li>
-                                <li>How to create drivers to interface with new components</li>
+                                <li>How to read manufacturer data sheets.</li>
+                                <li>Debugging and testing techniques (Traceability matrix).</li>
+                                <li>Efficient low level coding techniques using C.</li>
+                                <li>How to create drivers to interface with new components.</li>
 
                             </ul>
 
@@ -427,7 +460,10 @@
                         <div>
                             <h3 id="Mobile_apps"><b>Mobile Devices and Applications</b></h3>
                             <h5>Grade: 90%</h5>
-                            <h6>Topics / Tech stack: Android Studio, Java, NFC vs RFID, Cellular telephony, </h6><br>
+                            <b>Topics / Tech stack:</b>
+                            <p>
+                                Android Studio, Java, NFC vs RFID, Cellular telephony, mobile sensors, mobile network communications
+                            </p>
                             <b>Description:</b>
                             <p>
                                 The theoretical side of this module was focused around mobile technologies with a heavy emphasis on mobile communication systems (2 way radio - 4th generation pure IP networking, bluetooth, Zigbee, RFID, NFC) and their topologies as well as mobile device sensors / components, how exactly they work and how to make use of them.<br>
@@ -461,8 +497,9 @@
                             </p>       
                             <b>What i learnt:</b>
                             <ul>
-                                <li>Image processing techniques </li>
+                                <li>Image processing techniques</li>
                                 <li>How to make use of CNN's for feature detection</li>
+                                <li>How to use MATLAB</li>
                             </ul>
                             <div class="row" style="border-style: solid;">
 
@@ -484,22 +521,24 @@
                         <div>
                             <h3 id="Computational_Science"><b>Computational Science</b></h3>
                             <h5>Grade: 76%</h5>
-                            <h6>Topics / Tech stack:  </h6>
+                            <b>Topics / Tech stack:  </b>
                             <p>
-                                Python, Pycharm, Neural networks, 
+                                Python, Pycharm, Neural networks, algorithms
                             </p>            
-                            <br>
+
                             <b>Description:</b>
                             <p>
+                                This module coverer many topics in the neural network / machine learning domain and how to go about modeling dynamic systems.<br>
+                                In this module i got hands on experience with algorithms, ideologies and mathematic formulas such as Eulers method, box-Muller, random search algorithms, monte carlo simulations, derivatives, activation functions, sigmoids, BP nets, Hopfield model and perception training algorithms.
 
+                                In the coursework for this module i was tasked with developing a system that could simulate a robots movement and then add additional functionality to the system to predict the next position of the robot before taking its next step.
 
                             </p>  
                             <b>What i learnt:</b>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>An increased ability with translating formulas into algorithms.</li>
+                                <li>Modeling systems.</li>
+
                             </ul>
                             <div class="row" style="border-style: solid;">
 
@@ -519,7 +558,7 @@
                         <div>
                             <h3 id="Undergraduate_Dissertation"><b>Dissertation</b></h3>
                             <h5>Grade: 90%</h5>
-                            <h6>Topics / Tech stack: </h6>
+                            <b>Topics / Tech stack: </b>
                             <p>
                                 UDP networking, Drones, PID control, Embedded systems, Sliding window, Python, Pycharm, Vicon vision system, Linux, Virtual machines, Automated decision system, open source, C++, Eclipse
                             </p>
@@ -545,16 +584,16 @@
                             </p>  
                             <b>What i learnt:</b>
                             <ul>
-                                <li>UDP networking concepts</li>
-                                <li>Algorithmic implementation skills based around mathematical models</li>
-                                <li>Steps for creating custom firmware for embedded devices in C++</li>
-                                <li>How to make use of open source libraries and their documentation to accomplish tasks </li>
-                                <li>How to use Linux and some terminal commands</li>
-                                <li>How to use virtual machines in a VirtualBox environment</li>
-                                <li>Utilization and modification of known implementations to solve tasks (Sliding window for averaging)</li>
-                                <li>quad copter flight dynamics</li>
-                                <li>Critical research and appraisal skills</li>
-                                <li>Additional concepts and how to implement them in the Python</li>
+                                <li>UDP networking concepts.</li>
+                                <li>Algorithmic implementation skills based around mathematical models.</li>
+                                <li>Steps for creating custom firmware for embedded devices in C++.</li>
+                                <li>How to make use of open source libraries and their documentation to accomplish tasks. </li>
+                                <li>How to use Linux and some terminal commands.</li>
+                                <li>How to use virtual machines in a VirtualBox environment.</li>
+                                <li>Utilization and modification of known implementations to solve tasks (Sliding window for averaging).</li>
+                                <li>quad copter flight dynamics.</li>
+                                <li>Critical research and appraisal skills.</li>
+                                <li>Additional concepts and how to implement them in the Python.</li>
                             </ul>
                             <div class="row" style="border-style: solid;">
 
@@ -597,11 +636,12 @@
                     <a class="btn btn-outline-primary" data-toggle="collapse" href="#Undergraduate_div" role="button" aria-expanded="false" aria-controls="collapseOne">
                         Show / Hide (Undergraduate)
                     </a>
+                    <br>
+                    <br>
 
                 </div>
             </div>
-            <br>
-            <br>
+
             <a class="btn btn-outline-primary" data-toggle="collapse" href="#Education" role="button" aria-expanded="false" aria-controls="collapseOne">
                 Show / Hide (Education)
             </a>
@@ -680,28 +720,31 @@
                 <hr class="Thick_Border">
                 <h2>Contact details</h2>
                 <div id="Contact_details" class="collapse">
-                    <p>
-                        Address: Hull, HU1<br>
-                        Tel: 07764413708<br>
-                        Email: : I.Roberts@2016.hull.ac.uk<br>
-                        Git : https://github.com/Ieaun<br>
-                        LinkedIn: www.linkedin.com/in/ieaun-roberts/
-                    </p>
+
+                    Address: Hull, HU1<br>
+                    Tel: 07764413708<br>
+                    Email: <input type="text" value="I.Roberts@2016.hull.ac.uk" id="Email_add"> <br>
+                    Git : https://github.com/Ieaun<br>
+                    LinkedIn: www.linkedin.com/in/ieaun-roberts/
+
                 </div>
                 <a class="btn btn-outline-primary" data-toggle="collapse" href="#Contact_details" role="button" aria-expanded="false" aria-controls="collapseOne">
                     Show / Hide (Contact details)
                 </a>
             </div>
             <hr>
-            <div class="footer">Ieaun Roberts &copy 2020</div>
-
-
-
-
-
 
 
         </main><!-- /.container -->
+        <div class="footer text-white" style="background-color: black; min-width: 100%;padding: 20px;" >
+            <h5 >Find me on</h5>
+            <a href="https://github.com/Ieaun">Git</a><br>
+            <a href="www.linkedin.com/in/ieaun-roberts/">Linkedin</a><br>
+
+
+            Ieaun Roberts &copy 2020
+
+        </div>
 
 
         <!-- Bootstrap core JavaScript
@@ -710,27 +753,16 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- https://www.w3schools.com/howto/tryit.asp?filename=Hello%20World -->
         <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
-
-            // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById("myImg");
-            var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            img.onclick = function(){
-                modal.style.display = "block";
-                modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
-            }
-
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() { 
-                modal.style.display = "none";
+            function myCopy() {
+                var copyText = document.getElementById("Email_add");
+                copyText.select();
+                copyText.setSelectionRange(0, 99999)
+                document.execCommand("copy");
+                alert("Copied the text: " + copyText.value);
             }
         </script>
+
     </body>
 </html>
