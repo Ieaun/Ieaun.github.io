@@ -18,7 +18,7 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 
 .img{
-   max-width: 100%;   
+    max-width: 100%;   
 }
 
 .img:hover {opacity: 0.7;
@@ -105,3 +105,68 @@ body {font-family: Arial, Helvetica, sans-serif;}
         width: 100%;
     }
 }
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-wrap_wrap*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 10px;
+    flex-basis: 50%;
+}
+
+.ShortCut_image:hover{
+   transform: scale(1.25);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+
+
+.Short_container {
+  position: relative;
+
+}
+
+.Short_overlay {
+  position: absolute;
+  top: 70%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+
+.Short_container:hover .Short_overlay {
+  opacity: 0.8;
+     
+}
+
+.Short_text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
